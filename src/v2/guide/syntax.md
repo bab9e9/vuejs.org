@@ -150,7 +150,7 @@ Similarly, you can use dynamic arguments to bind a handler to a dynamic event na
 <a v-on:[eventName]="doSomething"> ... </a>
 ```
 
-In this example, when `eventName`'s value is `"focus"`, `v-on:[eventName]` will be equivalent to `v-on:focus`.
+In this example, when the value of `eventName` is `"focus"`, `v-on:[eventName]` will be equivalent to `v-on:focus`.
 
 #### Dynamic Argument Value Constraints
 
